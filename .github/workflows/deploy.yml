@@ -6,7 +6,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environnment: production
+    environment: production
     steps:
       - name: Récupérer le dépôt
         uses: actions/checkout@v4
